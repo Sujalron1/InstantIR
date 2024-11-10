@@ -247,4 +247,4 @@ with gr.Blocks() as demo:
     ```
     """)
 
-demo.queue().launch()
+demo.queue().launch(share=False)
